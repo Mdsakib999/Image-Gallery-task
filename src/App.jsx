@@ -91,7 +91,7 @@ const App = () => {
             </div>
             <button
             onClick={handleImageDelete}
-            className=" lg:text-2xl font-semibold ms-28 lg:ms-[400px] text-red-500 hover:text-red-600 hover:underline"
+            className=" lg:text-2xl font-semibold ms-28 lg:ms-[500px] text-red-500 hover:text-red-600 hover:underline"
           >
             Delete Files
           </button>
@@ -126,8 +126,8 @@ const App = () => {
             ) : (
               <div>
                 {" "}
-                <h2 className="text-3xl font-bold uppercase my-40 text-center">
-                  All image are deleted, Reload now!
+                <h2 className="text-3xl font-bold my-40 text-center">
+                  All image are deleted, <br /> Reload now!
                 </h2>
               </div>
             )}
