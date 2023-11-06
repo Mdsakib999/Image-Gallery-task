@@ -39,12 +39,12 @@ const Item = forwardRef(
 
     const itemsStyles = {
       opacity: withOpacity ? "0.5" : "1",
+      borderRadius: "12px",
       height: `${index === 0 ? "300px" : "140px"}`,
       width: `${index === 0 ? "300px" : "140px"}`,
-      borderRadius: "12px",
       gridColumn: `${index === 0 ? "1 / span 2" : ""}`,
-      transformOrigin: "0% 0%",
       gridRow: `${index === 0 ? "1 / span 2" : ""}`,
+      transformOrigin: "0% 0%",
       cursor: isDragging ? "grabbing" : "grab",
       backgroundColor: "#ffffff",
       display: "flex",
